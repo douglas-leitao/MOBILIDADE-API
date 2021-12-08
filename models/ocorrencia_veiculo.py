@@ -20,7 +20,6 @@ class OcorrenciaVeiculoModel(banco.Model):
     def json(self):
         return {
             'ocorrencia_id': self.ocorrencia_id,
-            'veiculo_id': self.veiculo_id,
             'placa': self.placa,
             'renavan': self.renavan,
         }
