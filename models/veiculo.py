@@ -70,6 +70,7 @@ class VeiculoModel(banco.Model):
         banco.session.add(self)
         banco.session.commit()
         #OcorrenciaVeiculoModel.save_ocorrencia_veiculo()
+        # testando deploy heroku
 
     def update_veiculo(self, placa, renavan, marca, modelo, ano_modelo, cor, especie, tipo, categoria, proprietario_fk):
         self.placa = placa
