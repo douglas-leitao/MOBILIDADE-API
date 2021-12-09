@@ -1,0 +1,252 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1639068871000)
++++ .idea/workspace.xml	(date 1639068791540)
+@@ -2,8 +2,9 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.db" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="TRACKING_ENABLED" value="true" />
+@@ -32,7 +33,7 @@
+       <file leaf-file-name="ocorrencia_veiculo.py" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/models/ocorrencia_veiculo.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="39">
++            <state relative-caret-position="323">
+               <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+             </state>
+           </provider>
+@@ -47,11 +48,23 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
++      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/app.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="31">
+-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
++            <state relative-caret-position="153">
++              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
++              <folding>
++                <element signature="e#0#32#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/requirements.txt">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="255">
++              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+             </state>
+           </provider>
+         </entry>
+@@ -60,7 +73,7 @@
+         <entry file="file://$PROJECT_DIR$/runtime.txt">
+           <provider selected="true" editor-type-id="text-editor">
+             <state>
+-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
++              <caret column="13" selection-start-column="13" selection-end-column="13" />
+             </state>
+           </provider>
+         </entry>
+@@ -68,7 +81,7 @@
+       <file leaf-file-name="veiculo.py" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/models/veiculo.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="105">
++            <state relative-caret-position="1207">
+               <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+             </state>
+           </provider>
+@@ -119,14 +132,14 @@
+         <option value="$PROJECT_DIR$/resources/pcorrencia_veiculo.py" />
+         <option value="$PROJECT_DIR$/resources/ocorrencia_veiculo.py" />
+         <option value="$PROJECT_DIR$/venv/Procfile" />
+-        <option value="$PROJECT_DIR$/requirements.txt" />
+         <option value="$PROJECT_DIR$/models/ocorrencia_veiculo.py" />
+         <option value="$PROJECT_DIR$/runtime.txt" />
+         <option value="$PROJECT_DIR$/models/veiculo.py" />
++        <option value="$PROJECT_DIR$/requirements.txt" />
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectFrameBounds" extendedState="7">
++  <component name="ProjectFrameBounds" extendedState="6">
+     <option name="x" value="-12" />
+     <option name="y" value="-12" />
+     <option name="width" value="984" />
+@@ -174,7 +187,15 @@
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
++    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
++  </component>
++  <component name="PyConsoleOptionsProvider">
++    <option name="myPythonConsoleState">
++      <console-settings module-name="mobilidade" is-module-sdk="true">
++        <option name="myUseModuleSdk" value="true" />
++        <option name="myModuleName" value="mobilidade" />
++      </console-settings>
++    </option>
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+@@ -223,15 +244,16 @@
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
++    <editor active="true" />
+     <layout>
+-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
++      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
+       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
+       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023847" side_tool="true" weight="0.32042253" />
+       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3221831" />
+       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32922536" />
+       <window_info anchor="bottom" id="Run" order="2" />
+       <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.27662957" />
+-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" visible="true" weight="0.75" />
++      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" weight="0.75" />
+       <window_info id="Favorites" order="2" sideWeight="0.5070422" side_tool="true" weight="0.27662957" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+@@ -245,21 +267,21 @@
+     <layout-to-restore>
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27662957" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="bottom" id="TODO" order="6" />
++      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+       <window_info anchor="bottom" id="Run" order="2" />
+-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922536" />
++      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32922536" />
++      <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" weight="0.8802817" />
+       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023847" side_tool="true" weight="0.32042253" />
+-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
++      <window_info anchor="bottom" id="Find" order="1" weight="0.32922536" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+-      <window_info anchor="bottom" id="Message" order="0" />
+-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32922536" />
+     </layout-to-restore>
+   </component>
+   <component name="VcsContentAnnotationSettings">
+@@ -267,7 +289,7 @@
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+-      <option name="time" value="4" />
++      <option name="time" value="5" />
+     </breakpoint-manager>
+   </component>
+   <component name="editorHistoryManager">
+@@ -470,19 +492,12 @@
+           <folding>
+             <element signature="e#0#29#0" expanded="true" />
+           </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1054">
+-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/models/ocorrencia_veiculo.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="39">
++        <state relative-caret-position="323">
+           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+         </state>
+       </provider>
+@@ -490,13 +505,13 @@
+     <entry file="file://$PROJECT_DIR$/runtime.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state>
+-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
++          <caret column="13" selection-start-column="13" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/models/veiculo.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="105">
++        <state relative-caret-position="1207">
+           <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+         </state>
+       </provider>
+@@ -510,8 +525,18 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/app.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="31">
+-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
++        <state relative-caret-position="153">
++          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
++          <folding>
++            <element signature="e#0#32#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/requirements.txt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="255">
++          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+diff --git banco.db banco.db
+index 4305028383a00f6ad84f9a81d4e3039e421c99de..98028f6a7a3ceb3fff19a98737ff299f583a87f1
+GIT binary patch
+literal 81920
+zc%1FrU2ob}7{GDUBqWd*(l^m5s^TgaBU0PokTmI}N~H+3QM0s7lXaCQStoEvtQnix
+zfGX{xTH9&6-e=gS*zGoHUtro7*v&3?F>TUrW(+16mo=@@MP>h=2pk^U$A@zspWry~
+z@WG~0mukg!s-mvulvyPfQ*NrNq9~Kz&pG8#-1`~rc^*?<ZBn^<;iu`;U&`6hj570m
+z>c{EZGvCaJ<iYfXso$o)n|PF5OU4sF#}gCkXlCq(v8Q7n9HCYK|EXuG+3~cd#h!1}
+z#hxkclI=LsDj7m=N~6>;?P%n5VY`^$DXKg9Tbo5Sx?Ig96FpI*tbUZ=F5Jm)t6TSW
+z)UDmk&C6;s(OG%W;+iQ+B3P1HTWrO=3Pn>`-KeJd;rrVgALh3ot9Of!)l6u|m(|0)
+z_^a-2Z9Ld5su{obP^44$Vsf!?HlBW@#T3IT%O~z<rZ<i1qEWZ~=X&(z>bYp_T;a@X
+zR<az8oh_Vx%}TUr?97XEGvn!nh1gei-vGNk#ngZyb&ocdWl<NpYgmR`ckILA$@)Ef
+zU^{~smW;9}%bsXEY})&dDBF$D2Hi!v)f2zguE(y{Oj(sy{cy>0dxJe;I4`NEZq)2(
+zvpU<9Ort9LgH>VcWy6sr5qTMYWi`<>UfKe;QIk%^C>c_(dAk#lPOvSn4W`uVj;P4}
+z$o7WWs2Y~&-EU_}Q<`?W3-zYaf4B@jF1##XO~un23$M;Cw>PQW*=L_8$I}-t#=dM%
+z7o8+?gU88G9tF`>5*^>+UKLI$IyQFM>x%xUux!0=$x5fko&G_PZcTb4^s<qSjF+f;
+zqvRNofvh=p%`s$MIEJlPK8@sDXhhy%YFe6(rwbPc4O-CMdM+r<EKMD0gXN$!y)=2G
+z4YZ&%_2OQ9JUurT`?}#LL`}M`E!@t-cqkn@!B#eS$AfEIgOZ_CtMm`Lv)|v>jf&nA
+zT=rv@U5(Bq{^Vo{x71%lc<RZu4^{c3XSmyy>W<v+o4mAc6J&oIyyVai#9lYL+CET)
+z*+0{DGRB)S3~z$$-6TjoY08Ri^=#8_qpS+UJgon<XUz3CoG}N?)s0GD4}`M3JJR8l
+z-VZ%J>|!s;uO#B>{M?`v>?Dz%>lBh#CXTZDa;K2EGJcfRwN7E;S$f2u?_R|G^lrF~
+z*0JpdkE5Xk52CFMZ@AKF<@d(cPVsgzoZsGn7>Co^N_H`{)RoqO7`Rl_jixuw>aBbC
+zHjDYKXg;j>Z4erbPOCzl@3+Q}6z&uYchyX=i;XQclfA5Ji=oy1y|w0|v45K>g09e)
+zgHn8H^hg_ML22xZr?K(${Cw>BhkoBnZ$0mqukCgVr$W8o4Y#^Kcrs{;IhHpV+VLMQ
+zJ?-}TSUVL@7v~3cS@#9&TDLgjy``UMy|15c-OZldc?AFf0001Z`;x6Y&i?@b0000O
+zYOU-4vD7b$cLM+b0002*miJ?EC4D||LzJtAr7h=H%64Pl6s{?ay0C9nq-+XPUfpwA
+z*Z*UwKNar=000000EWxNNIK#FZJ>Sr|EuEN000000KhwJZsbN{(Di@5{|^8F004mD
+z$M^pM00000F#I_G2LJ#70AToW{to~E006-73qJp!`u3z-0ssI20Kos=Cvywu)92s2
+zG=FJ9+j#hKcI|pLn_XF5%dX_sR<jjD)N8^tZ0-8`>YgL4l3f$7EB2+~*rHLlt9DbG
+z_w(C38-?A?{B}0GmdmbOThCr!3$FjC{yyoK2mk;8007>OF|B+4|HnzU1poj50011f
+z$<BWfbkF~PKj{_$00000fa8?v`RG9K`F{Wa0000my!ifq000000EQpe{{a91000<%
+gT>l3E0001B_;LOZ00000!0_Yz9{>OV0D$5551ppvn*aa+
+
