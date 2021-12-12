@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="" />
+    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.db" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/models/usuario.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639342755496</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pip install psycopg2">
+      <created>1639343373912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639343373912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -279,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
@@ -353,7 +361,8 @@
     <MESSAGE value="update conda" />
     <MESSAGE value="novo ambiente virtual mobilidade&#10;reinstalação dos arquivos" />
     <MESSAGE value="pip install backports.zoneinfo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pip install backports.zoneinfo" />
+    <MESSAGE value="pip install psycopg2" />
+    <option name="LAST_COMMIT_MESSAGE" value="pip install psycopg2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/models/usuario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
