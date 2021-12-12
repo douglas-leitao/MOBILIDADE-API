@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="" />
+    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usuario.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/usuario.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -61,6 +64,15 @@
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -109,11 +121,11 @@
         <option value="$PROJECT_DIR$/resources/ocorrencia_veiculo.py" />
         <option value="$PROJECT_DIR$/venv/Procfile" />
         <option value="$PROJECT_DIR$/models/ocorrencia_veiculo.py" />
-        <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/models/veiculo.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/models/usuario.py" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
@@ -279,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639348680397</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pip install psycopg2-binary">
+      <created>1639349574822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639349574822</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -293,6 +312,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
@@ -368,7 +388,8 @@
     <MESSAGE value="pip install backports.zoneinfo" />
     <MESSAGE value="pip install psycopg2" />
     <MESSAGE value="pip install gunicorn" />
-    <option name="LAST_COMMIT_MESSAGE" value="pip install gunicorn" />
+    <MESSAGE value="pip install psycopg2-binary" />
+    <option name="LAST_COMMIT_MESSAGE" value="pip install psycopg2-binary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -608,6 +622,13 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
