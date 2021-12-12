@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/banco.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.db" afterDir="false" />
-    </list>
+    <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -274,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639343373912</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pip install gunicorn">
+      <created>1639348680397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639348680397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,7 +367,8 @@
     <MESSAGE value="novo ambiente virtual mobilidade&#10;reinstalação dos arquivos" />
     <MESSAGE value="pip install backports.zoneinfo" />
     <MESSAGE value="pip install psycopg2" />
-    <option name="LAST_COMMIT_MESSAGE" value="pip install psycopg2" />
+    <MESSAGE value="pip install gunicorn" />
+    <option name="LAST_COMMIT_MESSAGE" value="pip install gunicorn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
