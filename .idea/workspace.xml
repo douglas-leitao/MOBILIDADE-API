@@ -57,7 +57,10 @@
         <entry file="file://$PROJECT_DIR$/models/usuario.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639341682244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pip install backports.zoneinfo">
+      <created>1639342755496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639342755496</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -269,6 +279,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
@@ -341,7 +352,8 @@
     <MESSAGE value="update blaze" />
     <MESSAGE value="update conda" />
     <MESSAGE value="novo ambiente virtual mobilidade&#10;reinstalação dos arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="novo ambiente virtual mobilidade&#10;reinstalação dos arquivos" />
+    <MESSAGE value="pip install backports.zoneinfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pip install backports.zoneinfo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,7 +589,10 @@
     <entry file="file://$PROJECT_DIR$/models/usuario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
