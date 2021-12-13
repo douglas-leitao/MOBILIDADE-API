@@ -30,8 +30,7 @@ class Ocorrencia(Resource):
     argumentos_bo.add_argument('velocidade_via')
 
     def get(self):
-        headers = {'Content-Type': 'text/html'}
-        return make_response(render_template('index.html'), 200, headers)
+        return render_template('index.html'), 200
 
     def get(self, ocorrencia_id):
         ocorrencia = OcorrenciaModel.find_ocorrencia(ocorrencia_id)
