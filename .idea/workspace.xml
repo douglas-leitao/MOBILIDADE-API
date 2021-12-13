@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="581743c0-61a0-47b0-842e-0c7446e8f631" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ocorrencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ocorrencia.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,62 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pessoa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/pessoa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ocorrencia_veiculo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/ocorrencia_veiculo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="397">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="usuario.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/usuario.py">
+        <entry file="file://$PROJECT_DIR$/resources/usuario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="134">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#27#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <file leaf-file-name="ocorrencia.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/ocorrencia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +86,6 @@
         <option value="$PROJECT_DIR$/blacklist.py" />
         <option value="$PROJECT_DIR$/templates/user_confirm.html" />
         <option value="$PROJECT_DIR$/models/endereco.py" />
-        <option value="$PROJECT_DIR$/resources/ocorrencia.py" />
         <option value="$PROJECT_DIR$/models/ocorrencia.py" />
         <option value="$PROJECT_DIR$/resources/veiculo.py" />
         <option value="$PROJECT_DIR$/resources/usuario.py" />
@@ -123,9 +98,11 @@
         <option value="$PROJECT_DIR$/models/ocorrencia_veiculo.py" />
         <option value="$PROJECT_DIR$/models/veiculo.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/models/usuario.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/resources/ocorrencia.py" />
       </list>
     </option>
   </component>
@@ -152,6 +129,16 @@
               <item name="mobilidade" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobilidade" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilidade" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilidade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilidade" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,14 +171,14 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\python\flask\mobilidade\resources" />
-      <recent name="C:\dev\python\flask\mobilidade\models" />
-      <recent name="C:\dev\python\flask\mobilidade\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\python\flask\mobilidade" />
       <recent name="C:\dev\python\flask\mobilidade\venv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\python\flask\mobilidade\templates" />
+      <recent name="C:\dev\python\flask\mobilidade\resources" />
+      <recent name="C:\dev\python\flask\mobilidade\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639349574822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="runtime">
+      <created>1639353095102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639353095102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -314,14 +308,14 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.27662957" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023847" side_tool="true" weight="0.32042253" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3221831" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32922536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922536" />
       <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.27662957" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" visible="true" weight="0.75" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" weight="0.75" />
       <window_info id="Favorites" order="2" sideWeight="0.5070422" side_tool="true" weight="0.27662957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,7 +383,8 @@
     <MESSAGE value="pip install psycopg2" />
     <MESSAGE value="pip install gunicorn" />
     <MESSAGE value="pip install psycopg2-binary" />
-    <option name="LAST_COMMIT_MESSAGE" value="pip install psycopg2-binary" />
+    <MESSAGE value="runtime" />
+    <option name="LAST_COMMIT_MESSAGE" value="runtime" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,13 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/usuario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/usuario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -514,31 +502,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Scripts/env/Lib/site-packages/flask_jwt_extended/view_decorators.py" />
-    <entry file="file://$PROJECT_DIR$/resources/ocorrencia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/usuario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/user_confirm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -608,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/usuario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -629,6 +589,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#27#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ocorrencia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

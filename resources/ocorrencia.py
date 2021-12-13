@@ -3,6 +3,7 @@ from datetime import date
 from flask_restful import Resource, reqparse
 from models.ocorrencia import OcorrenciaModel
 from flask_jwt_extended import jwt_required
+from flask import make_response, render_template
 
 
 class Ocorrencias(Resource):
@@ -27,6 +28,10 @@ class Ocorrencia(Resource):
     argumentos_bo.add_argument('controle_trafego')
     argumentos_bo.add_argument('iluminacao')
     argumentos_bo.add_argument('velocidade_via')
+
+    def get(self):
+        headers = {'Content-Type': 'text/html'}
+        return make_response(render_template('index.html'), 200, headers)
 
     def get(self, ocorrencia_id):
         ocorrencia = OcorrenciaModel.find_ocorrencia(ocorrencia_id)

@@ -28,7 +28,7 @@ def verifica_blacklist(self,token):
 def token_de_acesso_invalidado(jwt_header, jwt_payload):
     return jsonify({'message': '/Você foi deslogado.'}), 401
 
-
+api.add_resource(Ocorrencia, '/')
 api.add_resource(Person, '/pessoas/<string:person_id>')
 api.add_resource(PessoaCPF, '/pessoa')
 api.add_resource(Ocorrencia, '/ocorrencia/<string:ocorrencia_id>')
