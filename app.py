@@ -16,6 +16,10 @@ app.config['JWT_BLACKLIST_ENABLED'] = True
 api = Api(app)
 jwt = JWTManager(app)
 
+@app.route('/')
+def index():
+    return "<h1>Deploy no heroku com sucesso!</h1>"
+
 @app.before_first_request
 def cria_banco():
     banco.create_all()
