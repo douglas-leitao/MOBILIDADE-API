@@ -3,7 +3,7 @@ import traceback
 from flask import Flask, jsonify
 from flask_jwt_extended import JWTManager
 from flask_restful import Api
-from flask_sqlalchemy import SQLAlchemy
+from sql_alchemy import banco
 from resources.usuario import User, UserRegister, UserLogin, UserLogout, UserConfirm
 from resources.pessoa import Person, PessoaCPF
 from resources.veiculo import Veiculo, Veiculos
@@ -12,18 +12,18 @@ from resources.ocorrencia import Ocorrencia, Ocorrencias
 from blacklist import BLACKLIST
 
 app = Flask(__name__)
+banco.init_app(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///banco.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JWT_SECRET_KEY'] = 'DontTellAnyone'
 app.config['JWT_BLACKLIST_ENABLED'] = True
-db = SQLAlchemy(app)
 api = Api(app)
 jwt = JWTManager(app)
 
 @app.before_first_request
 def cria_banco():
     try:
-        db.create_all()
+        banco.create_all()
     except:
         traceback.print_exc()
     #banco.create_all()
@@ -56,6 +56,4 @@ api.add_resource(UserConfirm, '/confirmacao/<int:user_id>')
 
 
 if __name__ == '__main__':
-    from sql_alchemy import banco
-    banco.init_app(app)
     app.run(debug=True)
