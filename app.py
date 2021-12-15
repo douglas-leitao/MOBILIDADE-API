@@ -1,3 +1,5 @@
+import traceback
+
 from flask import Flask, jsonify
 from flask_jwt_extended import JWTManager
 from flask_restful import Api
@@ -18,7 +20,11 @@ jwt = JWTManager(app)
 
 @app.before_first_request
 def cria_banco():
-    banco.create_all()
+    try:
+        banco.create_all()
+    except:
+        traceback.print_exc()
+    #banco.create_all()
 
 @app.route('/')
 def index():
